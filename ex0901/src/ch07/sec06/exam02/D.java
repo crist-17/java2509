@@ -13,9 +13,9 @@ public class D extends A{
 		}
 		
 	//protected 가 접근불가 
-		public void method2() {
-			A a = new A();
-			a.field = "value";
-			a.method();
-		}
+//		public void method2() {
+//			A a = new A();
+//			a.field = "value";
+//			a.method();
+//		}
 }
