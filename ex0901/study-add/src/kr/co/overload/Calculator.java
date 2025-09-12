@@ -16,6 +16,7 @@ public class Calculator {
 	public static int initCnt() {
 		
 		cnt = 0;
+		return cnt;
 	}
 
 	
