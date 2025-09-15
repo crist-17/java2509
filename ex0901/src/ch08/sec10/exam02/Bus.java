@@ -1,13 +1,14 @@
-package ch07.sec08.exam02;
+package ch08.sec10.exam02;
 
-public class Bus extends Vehicle {
+public class Bus  implements Vehicle{
 
 	@Override
 	public void run() {
 		System.out.println("버스가 달립니다.");
 		
-		}
-	public void checkFare() {
+	}
+	public void checkFarce() {
 		System.out.println("승차요금을 체크합니다.");
 	}
+	
 }
