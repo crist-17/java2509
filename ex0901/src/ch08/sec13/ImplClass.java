@@ -13,6 +13,13 @@ public class ImplClass implements InterfaceC {
 		System.out.println("MethodC() 실행");
 		
 	}
+
+	@Override
+	public void methodA() {
+		System.out.println("MethodA()실행");
+		
+	}
+	
 	
 	
 }
